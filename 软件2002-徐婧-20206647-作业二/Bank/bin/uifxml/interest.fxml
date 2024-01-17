@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="500.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.interestController">
+   <children>
+      <Label layoutX="74.0" layoutY="29.0" text="发利息">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="money" alignment="TOP_CENTER" layoutX="21.0" layoutY="111.0" promptText="请输入需发利息金额" />
+      <Button fx:id="confirmbtn" layoutX="61.0" layoutY="431.0" mnemonicParsing="false" onAction="#confirm" text="确认" />
+      <Button fx:id="backbtn" layoutX="99.0" layoutY="431.0" mnemonicParsing="false" onAction="#back" text="返回" />
+      <ListView fx:id="listview" layoutX="10.0" layoutY="182.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <Label layoutX="48.0" layoutY="158.0" text="请勾选发放利息人员" />
+   </children>
+</AnchorPane>

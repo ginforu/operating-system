@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainviewController">
+   <children>
+      <Label layoutX="128.0" layoutY="46.0" text="银行记账系统">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="deposit" layoutX="175.0" layoutY="128.0" onMouseClicked="#disposit" text="1.存款" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="withdrawact" layoutX="175.0" layoutY="191.0" onMouseClicked="#withdraw" text="2.取款" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="transferact" layoutX="175.0" layoutY="251.0" onMouseClicked="#transfer" text="3.转账" AnchorPane.topAnchor="270.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="payrollact" layoutX="166.0" layoutY="319.0" onMouseClicked="#payroll" text="4.发工资" AnchorPane.topAnchor="341.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="interest" layoutX="166.0" layoutY="375.0" onMouseClicked="#interest" text="5.发利息" AnchorPane.topAnchor="410.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="571.0" text="20206647 徐婧" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="300.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.dispositController">
+   <children>
+      <Label layoutX="82.0" layoutY="29.0" text="存款">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="money" alignment="TOP_CENTER" layoutX="22.0" layoutY="139.0" promptText="请输入需存金额" />
+      <Button fx:id="confirmbtn" layoutX="62.0" layoutY="219.0" mnemonicParsing="false" onAction="#confirm" text="确认" />
+      <Button fx:id="backbtn" layoutX="100.0" layoutY="219.0" mnemonicParsing="false" onAction="#back" text="返回" />
+   </children>
+</AnchorPane>

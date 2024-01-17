@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.emrollController">
+   <children>
+      <Label layoutX="276.0" layoutY="56.0" text="注册" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="276.0" AnchorPane.topAnchor="56.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="account" layoutX="299.0" layoutY="160.0" prefHeight="24.0" prefWidth="161.0" AnchorPane.rightAnchor="140.0" />
+      <TextField fx:id="password" layoutX="299.0" layoutY="207.0" prefHeight="24.0" prefWidth="161.0" AnchorPane.rightAnchor="140.0" />
+      <Label layoutX="140.0" layoutY="160.0" text="账号：" AnchorPane.leftAnchor="140.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="207.0" text="密码：" AnchorPane.leftAnchor="140.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="registerBtn" layoutX="188.0" layoutY="322.0" mnemonicParsing="false" onAction="#register" prefHeight="36.0" prefWidth="112.0" text="注册">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="300.0" layoutY="322.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="112.0" text="返回">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

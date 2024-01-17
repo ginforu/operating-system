@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.loginController">
+   <children>
+      <Label layoutX="156.0" layoutY="33.0" prefHeight="30.0" prefWidth="88.0" text="登录系统" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="accountin" layoutX="147.0" layoutY="98.0" />
+      <TextField fx:id="passwordin" layoutX="147.0" layoutY="154.0" />
+      <Label layoutX="93.0" layoutY="97.0" text="账号：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="153.0" text="密码：">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginbtn" layoutX="112.0" layoutY="279.0" mnemonicParsing="false" onAction="#login" prefHeight="23.0" prefWidth="88.0" text="登录" />
+      <Button fx:id="emrollbtn" layoutX="200.0" layoutY="279.0" mnemonicParsing="false" onAction="#emroll" prefHeight="23.0" prefWidth="88.0" text="注册" />
+   </children>
+</AnchorPane>
