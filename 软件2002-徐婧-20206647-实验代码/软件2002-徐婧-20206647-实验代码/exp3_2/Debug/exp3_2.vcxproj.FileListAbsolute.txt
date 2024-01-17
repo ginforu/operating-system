@@ -1,0 +1,2 @@
+E:\课件\大二下\操作系统\exp3_2\Debug\exp3_2.exe
+E:\课件\大二下\操作系统\exp3_2\Debug\exp3_2.pdb
